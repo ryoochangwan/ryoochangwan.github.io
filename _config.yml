@@ -11,10 +11,9 @@ exclude:
 # Site settings
 title: 농업블로그
 subtitle: "농업 블로그입니다"
-email: agriculture@gmail.com
-name: 이름이름
-description: >
-  A simple yet classy theme for your Jekyll website or blog.
+email: changwanryoo@gmail.com
+name: Ryoo Changwan
+description: 농업블로그
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
