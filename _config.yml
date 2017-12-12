@@ -41,7 +41,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: agriculture-blog
+disqus_shortname: ""
 
 # Google analytics
 ga_tracking_id: ""
