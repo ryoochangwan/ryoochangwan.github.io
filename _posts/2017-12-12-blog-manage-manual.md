@@ -10,11 +10,11 @@ tags: manual
 * Kramdown table of contents
 {:toc .toc}
 
-블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
-
-* __[깃허브](https://github.com/)__: 블로그 사이트가 될 파일들이 저장되어 있습니다.
-* __[디스커스](https://disqus.com/)__: 댓글을 관리합니다.
-* __[구글 애널리틱스](https://www.google.com/analytics/)__: 블로그 방문자 분석을 합니다.
+>블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
+>
+>* __[깃허브](https://github.com/)__: 블로그 사이트가 될 파일들이 저장되어 있습니다.
+>* __[디스커스](https://disqus.com/)__: 댓글을 관리합니다.
+>* __[구글 애널리틱스](https://www.google.com/analytics/)__: 블로그 방문자 분석을 합니다.
 
 ## 깃허브(github)
 
@@ -28,7 +28,7 @@ tags: manual
 
 블로그 제목, 이메일 등의 정보를 `_config.yml` 파일에 입력해 놓으면 모든 블로그 페이지에서 필요할 때 그 정보를 알아서 읽고 사용합니다. 블로그 운영자에 따라 아래의 내용만 바꿔서 사용하면 됩니다.
 
-#### __site settings__
+#### site settings
  ```yml
  # Site settings
  title: 농업블로그
@@ -53,7 +53,7 @@ tags: manual
  7. `cover`: 블로그 홈 페이지의 커버 사진입니다. 사진이 저장되어 있는 경로를 입력해줍니다.
  8. `logo`: 로고입니다. 로고 사진 파일이 저장되어 있는 경로를 입력해줍니다. 
 
-#### __social__
+#### social
  ```yml
  # social:
  #   - name: Twitter                         # Name of the service
