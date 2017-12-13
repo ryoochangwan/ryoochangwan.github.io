@@ -120,3 +120,7 @@ cover: /assets/picture.png
 마크다운 문법 정리는 이 문서 제일 첫 부분에 있습니다.
 
 ### 이미지와 자원 보관하기
+
+웹페이지에서 사용된 이미지 등은 모두 `_assets`폴더에 보관합니다. 그리고 각 자원의 경로만 알고 사용하면 됩니다.
+
+예를 들어 `_assets` 폴더 밑에 `image`라는 폴더를 만들고 그 안에 `img.png`라는 파일이 있으면 `/_assets/image/img.png`를 경로로 사용하면 됩니다. `_assets` 폴더 바로 밑에 `main-img.png`라는 파일을 사용할 때 경로는 `/_assets/main-img.png`가 됩니다.
