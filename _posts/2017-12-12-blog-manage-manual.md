@@ -1,7 +1,10 @@
 ---
 layout: post
 title: 블로그 관리 길라잡이
-subtitle: 서브타이틀
+subtitle: how to manage blog
+date: 2017-12-12 10:59:35
+categories: manual
+tags: manual
 ---
 
 블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
