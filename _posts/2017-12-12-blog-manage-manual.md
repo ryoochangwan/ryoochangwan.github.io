@@ -7,6 +7,9 @@ categories: manual
 tags: manual
 ---
 
+* Kramdown table of contents
+{:toc .toc}
+
 블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
 
 * __[깃허브](https://github.com/)__: 블로그 사이트가 될 파일들이 저장되어 있습니다.
