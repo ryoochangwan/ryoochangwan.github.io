@@ -1,174 +1,18 @@
-> 이 문서는 크게 두 가지로 나뉘어져 있습니다. 
->
->1. 마크다운 문법: 포스트 작성 양식인 마크다운 문법을 정리했습니다.
->2. 블로그 관리 길라잡이: 블로그 사이트를 어떻게 관리하는지 설명해 놓았습니다. 
+---
+layout: post
+title: 블로그 관리 길라잡이
+subtitle: how to manage blog
+date: 2017-12-12 10:59:35
+categories: manual
+tags: manual
+---
 
-# 1. 마크다운 문법
-
-## 제목(Heading)
-
-'#'의 개수에 따라 글자의 크기가 달라집니다. 6개까지 사용 가능합니다.
-```
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
-```
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
-
-## 본문(Paragraph)
-
-본문은 텍스트를 그대로 작성하면 됩니다.
-```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-## 인용(Blockquotes)
-
-인용은 `>`넣어서 작성합니다.
-
-```
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit
->> Lorem ipsum dolor sit amet, consectetur adipisicing elit
-```
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit
->> Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-## 리스트
-
-### 순서가 없는 리스트(Unordered List)
-
-`*`또는 `-`를 사용해서 순서가 없는 리스트를 작성할 수 있습니다. tab 또는 2칸 띄어쓰기를 통해 중첩된 항목을 작성할 수도 있습니다.
-
-```
-* Frontend
-  * HTML
-  * CSS
-  * JavaScript
-    * Vue.js
-
-- Frondend
-  - HTML
-  - CSS
-  - JavaScript
-    - Vue.js
-```
-
-* Frontend
-  * HTML
-  * CSS
-  * JavaScript
-    * Vue.js
-
-- Frondend
-  - HTML
-  - CSS
-  - JavaScript
-    - Vue.js
-
-### 순서가 있는 리스트(Ordered List)
-
-```
-1. Frontend
-    1. HTML
-    2. CSS
-    3. JavaScript
-        1. Vue.js
-2. Backend
-```
-
-1. Frontend
-    1. HTML
-    2. CSS
-    3. JavaScript
-        1. Vue.js
-2. Backend
-
-## 수평선(Horizontal Rules)
-
-문단과 문단 사이를 나눌 때 사용되는 수평선입니다.
-
-```
-* * *
-***
-*****
 - - -
----------------------------------------
-```
 
-* * *
-***
-*****
+* Kramdown table of contents
+{:toc .toc}
+
 - - -
----------------------------------------
-
-## 링크(Links)
-
-하이퍼링크입니다. title은 생략이 가능합니다.
-
-```
-[example](http://example.com "title")
-
-검색엔진은 [구글](https://www.google.com "구글")을 사용합니다.
-```
-
-[example](http://example.com "title")
-
-검색엔진은 [구글](https://www.google.com "구글")을 사용합니다.
-
-## 강조(Emphasis)
-
-이탤릭체는 `*`, `_`를 쓰고 볼드체는 `**`, `__`를 사용합니다. 취소선은 `~~`를 사용합니다.
-
-```
-*이탤릭체*
-_이탤릭체_
-```
-
-_이탤릭체_
-
-```
-**볼드체**
-__볼드체__
-```
-
-__볼드체__
-
-```
-~~취소~~한 텍스트
-```
-
-~~취소~~한 텍스트
-
-## 이미지 삽입(Images)
-
-이미지를 본문 중간에 삽입할 수도 있습니다. 이미지에 문제가 생겨 나오지 않는 경우에 이미지를 대체할 텍스트를 삽입할 수도 있습니다. 링크 또는 로컬의 이미지 파일을 연결하여 사용합니다.
-
-```
-![대체 텍스트](/경로)
-![대체 텍스트](링크)
-```
-
-```
-![logo](/assets/logo.png)
-```
-![logo](/assets/logo.png)
-
-```
-![Github](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
-```
-
-![Github](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
-
-# 2. 블로그 관리 길라잡이
 
 블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
 
@@ -188,7 +32,7 @@ __볼드체__
 
 블로그 제목, 이메일 등의 정보를 `_config.yml` 파일에 입력해 놓으면 모든 블로그 페이지에서 필요할 때 그 정보를 알아서 읽고 사용합니다. 블로그 운영자에 따라 아래의 내용만 바꿔서 사용하면 됩니다.
 
-#### __site settings__
+#### site settings
  ```yml
  # Site settings
  title: 농업블로그
@@ -213,7 +57,7 @@ __볼드체__
  7. `cover`: 블로그 홈 페이지의 커버 사진입니다. 사진이 저장되어 있는 경로를 입력해줍니다.
  8. `logo`: 로고입니다. 로고 사진 파일이 저장되어 있는 경로를 입력해줍니다. 
 
-#### __social__
+#### social
  ```yml
  # social:
  #   - name: Twitter                         # Name of the service
@@ -264,7 +108,7 @@ YEAR-MONTH-DAY-title.MARKUP
 ---
 layout: post
 title: welcome to my blog
-subtitle: this is just exmple
+subtitle: this is just example
 date: 2017-12-11 17:19:42
 author: BABA
 categoris: agriculture
@@ -274,7 +118,7 @@ cover: /assets/picture.png
 ```
 1. `layout`: 무조건 `post`를 입력합니다.
 2. `title`: 포스트의 제목입니다.
-3. `subtitle`: 포스트의 부제목입니다. 선택사항입니다. 있으면 제목 밑에 나오고 없으면 부제 없이 제목만 나옵니다.
+3. `subtitle`: 포스트의 부제목입니다. 선택사항입니다. 있으면 제목 밑에 나오고 없으면 제목만 나옵니다.
 4. `date`: 포스트 작성 시각을 입력합니다. 포스트를 올바르게 정렬하기 위해 사용되고 시간, 분, 초는 선택사항입니다.
 5. `author`: 포스트의 작성자입니다. 웹페이지에 직접적으로 드러나지는 않습니다. 단지 포스트의 정보로서 가지고 있을 뿐입니다. 선택사항입니다.
 6. `categories`: 포스트의 카테고리를 입력합니다. 이 카테고리에 따라 자동으로 포스트가 분류됩니다.
@@ -287,7 +131,7 @@ cover: /assets/picture.png
 
 마크다운 문법 정리는 이 문서 제일 첫 부분에 있습니다.
 
-### 이미지와 자원 보관하기: _assets
+### 이미지와 자원 보관하기: _posts
 
 웹페이지에서 사용된 이미지 등은 모두 `_assets`폴더에 보관합니다. 그리고 각 자원의 경로만 알고 사용하면 됩니다.
 
