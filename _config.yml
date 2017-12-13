@@ -82,7 +82,14 @@ social:
     url:
     desc: Friend me on Facebook
     share: true
-    
+
+  - name: Kakaostory
+    icon: kakaostory
+    usernamer:
+    url:
+    desc: Friend me on KaKaostory
+    share: true   
+
 
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
