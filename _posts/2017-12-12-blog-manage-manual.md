@@ -7,14 +7,18 @@ categories: manual
 tags: manual
 ---
 
+- - -
+
 * Kramdown table of contents
 {:toc .toc}
 
->블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
->
->* __[깃허브](https://github.com/)__: 블로그 사이트가 될 파일들이 저장되어 있습니다.
->* __[디스커스](https://disqus.com/)__: 댓글을 관리합니다.
->* __[구글 애널리틱스](https://www.google.com/analytics/)__: 블로그 방문자 분석을 합니다.
+- - -
+
+블로그를 관리하기 위해서 다음 세 사이트를 이용합니다. 
+
+* __[깃허브](https://github.com/)__: 블로그 사이트가 될 파일들이 저장되어 있습니다.
+* __[디스커스](https://disqus.com/)__: 댓글을 관리합니다.
+* __[구글 애널리틱스](https://www.google.com/analytics/)__: 블로그 방문자 분석을 합니다.
 
 ## 깃허브(github)
 
@@ -127,7 +131,7 @@ cover: /assets/picture.png
 
 마크다운 문법 정리는 이 문서 제일 첫 부분에 있습니다.
 
-### 이미지와 자원 보관하기
+### 이미지와 자원 보관하기: _posts
 
 웹페이지에서 사용된 이미지 등은 모두 `_assets`폴더에 보관합니다. 그리고 각 자원의 경로만 알고 사용하면 됩니다.
 
