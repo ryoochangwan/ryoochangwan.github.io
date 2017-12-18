@@ -9,11 +9,11 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: 농업블로그
+title: 농업블로그 - 농업 관련 책 내용 공유
 subtitle: "농업 블로그입니다"
 email: changwanryoo@gmail.com
 name: Ryoo Changwan
-description: 농업블로그
+description: 농업에 대한 인식을 바꾸고, 인사이트를 얻을 수 있는 전문가의 책 내용을 공유합니다.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
